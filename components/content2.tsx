@@ -32,7 +32,7 @@ export const Content2 = (props: Layout396Props) => {
     <section id="relume" className="py-12">
       <div className="container px-4 md:px-[65px]">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18">
-          <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
+          <p className="mb-3 font-semibold md:mb-4 underline underline-offset-2 text-blue-600 uppercase">{tagline}</p>
           <h4 className="mb-5 text-lg font-bold md:mb-6 md:text-2xl">{heading}</h4>
         </div>
         <div className="grid auto-cols-fr grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
@@ -62,7 +62,7 @@ function FeatureSection(featureSection: FeatureSection) {
 }
 
 export const Layout396Defaults: Layout396Props = {
-  tagline: "Prima Tunggal Sejahtra",
+  tagline: "Cepat Andal dan selalu ada!!",
   heading: "Mengapa Harus Kami?",
   featureSections: [
     {

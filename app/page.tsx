@@ -43,6 +43,7 @@ const Home = () => {
       </section>
       <WhatsAppButton />
       {/* Footer */}
+
       <footer>
         <Footer3 />
       </footer>
