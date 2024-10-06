@@ -26,10 +26,10 @@ const Home = () => {
         <CarouselFeature />
       </section>
       {/* Content */}
-      <section>
+      <section className="bg-slate-200">
         <Content />
       </section>
-      <section>
+      <section className="bg-slate-100">
         <Content2 />
       </section>
       <section>
@@ -38,7 +38,7 @@ const Home = () => {
       <section>
         <Testimoni />
       </section>
-      <section>
+      <section className="bg-slate-50">
         <Gallery />
       </section>
       <WhatsAppButton />

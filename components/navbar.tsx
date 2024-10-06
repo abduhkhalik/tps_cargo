@@ -58,7 +58,10 @@ export const Navbar = (props: Navbar2Props) => {
                   className="w-full bg-blue-500 text-white px-4 py-1"
                   {...button}
                 >
+                  <a href="tel:+62 822-1117-1506" >
+
                   {button.title}
+                  </a>
                 </Button>
               ))}
             </div>
@@ -121,7 +124,7 @@ export const Navbar = (props: Navbar2Props) => {
               className="px-6 py-2 bg-blue-500 text-white"
               {...button}
             >
-              <a href={button.url}>{button.title}</a>
+              <a href="tel:082211171506">{button.title}</a>
             </Button>
           ))}
         </div>

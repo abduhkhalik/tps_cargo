@@ -81,7 +81,7 @@ export const Testimoni = (props: Testimonial17Props) => {
 
 export const Testimonial17Defaults: Testimonial17Props = {
   heading: "Testimonial",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  description: "Ulasan Mitra Kami.",
   testimonials: [
     {
       quote:

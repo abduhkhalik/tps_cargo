@@ -127,8 +127,8 @@ export const Footer3Defaults: Footer3Props = {
   },
   contact: {
     label: "Contact:",
-    phone: "+62 822-1117-1506",
-    email: "info@relume.io",
+    phone: "+6282211171506",
+    email: "tunggalprimasejahtera@gmail.com",
   },
   columnLinks: [
     {
