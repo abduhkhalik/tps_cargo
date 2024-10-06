@@ -91,8 +91,8 @@ export function CarouselFeature() {
             </div>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className="h-14 w-14 hidden md:grid" />
-        <CarouselNext className="h-14 w-14 hidden md:grid" />
+        <CarouselPrevious className="md:h-14 md:w-14 hidden md:grid" />
+        <CarouselNext className="md:h-14 md:w-14 hidden md:grid" />
       </Carousel>
     </div>
   );

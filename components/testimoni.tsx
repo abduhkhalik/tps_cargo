@@ -97,14 +97,14 @@ export const Testimonial17Defaults: Testimonial17Props = {
     },
     {
       quote:
-        '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+        '"Alhamdulillah selama 2tahun berlangganan tidaa pernaa kecewa dalam pelayanann 🥰🥰 selalu.a respon baik pengiriman banyak dan tidak banyak pun selalunya di jemput di toko .Ingatt see.x waktu pertama kalii pengiriman kuu ke LUAR NEGERI masya Allah dengan sabarrnya kk baa ajarr dan mengarahkan diriku yg tidak tau apaa" inii 😁🤗🤗 pokoknya selalu menyelesaikannya masalaa kuu dalam pengiriman barang"kuu 😁😁"',
       avatar: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
         alt: "Testimonial avatar 2",
       },
-      name: "Name Surname",
-      position: "Position",
-      companyName: "Company name",
+      name: "Karmonawati",
+      position: "Founder",
+      companyName: "Syariah Muslimah Collection",
       numberOfStars: 5,
     },
     {

@@ -21,7 +21,7 @@ const CarouselBanner = () => {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   return (
-    <div className="mx-auto pt-10">
+    <div className="mx-auto pt-16">
       <Carousel plugins={[plugin.current]}>
         <CarouselContent>
           <CarouselItem className="w-full max-w-full p-0">

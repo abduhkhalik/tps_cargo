@@ -21,7 +21,8 @@ type Props = {
   featureSections: FeatureSection[];
 };
 
-export type Layout396Props = React.ComponentPropsWithoutRef<"section"> & Partial<Props>;
+export type Layout396Props = React.ComponentPropsWithoutRef<"section"> &
+  Partial<Props>;
 
 export const Content2 = (props: Layout396Props) => {
   const { tagline, heading, featureSections } = {
@@ -32,8 +33,12 @@ export const Content2 = (props: Layout396Props) => {
     <section id="relume" className="py-12">
       <div className="container px-4 md:px-[65px]">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18">
-          <p className="mb-3 font-semibold md:mb-4 underline underline-offset-2 text-blue-600 uppercase">{tagline}</p>
-          <h4 className="mb-5 text-lg font-bold md:mb-6 md:text-2xl">{heading}</h4>
+          <p className="mb-3 font-semibold md:mb-4 underline underline-offset-2 text-blue-600 uppercase">
+            {tagline}
+          </p>
+          <h4 className="mb-5 text-lg font-bold md:mb-6 md:text-2xl">
+            {heading}
+          </h4>
         </div>
         <div className="grid auto-cols-fr grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
           {featureSections.map((feature, index) => (
@@ -47,15 +52,21 @@ export const Content2 = (props: Layout396Props) => {
 
 function FeatureSection(featureSection: FeatureSection) {
   return (
-    <div className="flex flex-col justify-center border border-border-primary p-6 md:p-8">
+    <div className="flex flex-col justify-center border bg-white rounded-xl border-border-primary p-6 md:p-8">
       <div>
         <div className="rb-5 mb-5 md:mb-6 fill-current">
-          <Image width={200} height={200} src={featureSection.icon.src} className="size-12 text-blue-600" alt={""} />
+          <Image
+            width={200}
+            height={200}
+            src={featureSection.icon.src}
+            className="size-12 text-blue-600"
+            alt={""}
+          />
         </div>
-        <h2 className="mb-3 text-2xl font-bold md:mb-4 md:text-2xl md:leading-[1.3]">
+        <h2 className="mb-3 text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 font-bold md:mb-4 md:text-2xl md:leading-[1.3]">
           {featureSection.heading}
         </h2>
-        <p>{featureSection.description}</p>
+        <p className="text-slate-700">{featureSection.description}</p>
       </div>
     </div>
   );
@@ -71,7 +82,8 @@ export const Layout396Defaults: Layout396Props = {
         alt: "Relume logo 1",
       },
       heading: "Terpercaya",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:
+        "Kami memastikan setiap pengiriman sampai dengan aman dan tepat waktu melalui sistem logistik yang andal dan tim profesional berpengalaman.",
       button: {
         title: "Button",
         variant: "link",
@@ -85,7 +97,8 @@ export const Layout396Defaults: Layout396Props = {
         alt: "Relume logo 2",
       },
       heading: "Cepat",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:
+        "Layanan kami dirancang untuk memberikan pengiriman yang efisien dengan berbagai pilihan jalur transportasi yang sesuai kebutuhan pelanggan.",
       button: {
         title: "Button",
         variant: "link",
@@ -99,7 +112,8 @@ export const Layout396Defaults: Layout396Props = {
         alt: "Relume logo 3",
       },
       heading: "Fleksibel",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:
+        "Kami menawarkan solusi pengiriman yang dapat disesuaikan dengan kebutuhan bisnis dan individu, baik untuk pengiriman skala kecil maupun besar.",
       button: {
         title: "Button",
         variant: "link",
@@ -113,7 +127,8 @@ export const Layout396Defaults: Layout396Props = {
         alt: "Relume logo 3",
       },
       heading: "Menjangkau Seluruh Dunia",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:
+        "Dengan dukungan jaringan global dan kemitraan internasional, kami mampu menjangkau berbagai tujuan di seluruh penjuru dunia.",
       button: {
         title: "Button",
         variant: "link",

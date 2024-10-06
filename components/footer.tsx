@@ -123,11 +123,11 @@ export const Footer3Defaults: Footer3Props = {
   },
   address: {
     label: "Alamat:",
-    value: "Jl. Matahari, Kabonena, Kec. Ulujadi, Kota Palu, Sulawesi Tengah 94227",
+    value: "Jl. Rahmatulah Perum.Taman Ria Estate Kav. Matahari No.4 Kel. Silae Kec. Ulujadi, Kota Palu",
   },
   contact: {
     label: "Contact:",
-    phone: "+6282211171506",
+    phone: "04514710124",
     email: "tunggalprimasejahtera@gmail.com",
   },
   columnLinks: [

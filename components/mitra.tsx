@@ -4,6 +4,7 @@ import Mitra2 from "../public/mitra/Huawei-Logo.png";
 import Mitra3 from "../public/mitra/Logo-Kementerian-Kesehatan_.png";
 import Mitra4 from "../public/mitra/Wahana Visi Indonesia Job Vacancy.png";
 import Mitra5 from "../public/mitra/WhatsApp_Image_2024-10-06_at_19.41.14_607c5f41-removebg-preview.png";
+import Mitra6 from "../public/mitra/WhatsApp_Image_2024-10-06_at_22.54.48_d6712467-removebg-preview.png";
 
 type ImageProps = {
   src: StaticImageData;
@@ -72,6 +73,10 @@ export const Logo1Defaults: Logo1Props = {
     },
     {
       src: Mitra5,
+      alt: "#",
+    },
+    {
+      src: Mitra6,
       alt: "#",
     },
   ],
