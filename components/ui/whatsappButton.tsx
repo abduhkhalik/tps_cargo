@@ -3,7 +3,7 @@ import Link from "next/link";
 const WhatsAppButton = () => {
   const phoneNumber = "+6282211171506"; // Replace with your phone number, in international format without the "+" sign
   const message =
-    "Hello, I am interested in learning more about your services!"; // Predefined message
+    "Hello, Saya Tertarik Untuk Mengetahui Lebih Banyak Tentang Layanan Anda!"; // Predefined message
 
   return (
     <Link

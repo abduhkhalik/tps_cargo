@@ -122,31 +122,31 @@ export const Footer3Defaults: Footer3Props = {
     alt: "Logo image",
   },
   address: {
-    label: "Address:",
-    value: "Level 1, 12 Sample St, Sydney NSW 2000",
+    label: "Alamat:",
+    value: "Jl. Matahari, Kabonena, Kec. Ulujadi, Kota Palu, Sulawesi Tengah 94227",
   },
   contact: {
     label: "Contact:",
-    phone: "1800 123 4567",
+    phone: "+62 822-1117-1506",
     email: "info@relume.io",
   },
   columnLinks: [
     {
       links: [
         { title: "Layanan Kami", url: "#" },
-        { title: "Link Two", url: "#" },
-        { title: "Link Three", url: "#" },
-        { title: "Link Four", url: "#" },
-        { title: "Link Five", url: "#" },
+        { title: "Container", url: "#" },
+        { title: "Shipper", url: "#" },
+        { title: "Airplane", url: "#" },
+        { title: "Pick up", url: "#" },
       ],
     },
     {
       links: [
         { title: "Tentang Kami", url: "#" },
-        { title: "Link Seven", url: "#" },
-        { title: "Link Eight", url: "#" },
-        { title: "Link Nine", url: "#" },
-        { title: "Link Ten", url: "#" },
+        { title: "Ekspedisi", url: "#" },
+        { title: "Cargo", url: "#" },
+        { title: "Fleksibel", url: "#" },
+        { title: "Tepat Waktu", url: "#" },
       ],
     },
   ],

@@ -49,7 +49,7 @@ export const Testimoni = (props: Testimonial17Props) => {
                   {Array(testimonial.numberOfStars)
                     .fill(null)
                     .map((_, starIndex) => (
-                      <BiSolidStar key={starIndex} className="mr-1 size-6" />
+                      <BiSolidStar key={starIndex} className="mr-1 size-6 fill-current text-yellow-400" />
                     ))}
                 </div>
                 <blockquote className="md:text-md">
@@ -85,15 +85,15 @@ export const Testimonial17Defaults: Testimonial17Props = {
   testimonials: [
     {
       quote:
-        '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+        '"Selama 2 tahun berlangganan di Tunggal Prima Sejahtera , sy dan customer sy sangat puas dgn pelayanannya dan selalu tepat waktu dan tanpa kendala , pelayananya ramah yang membuat kami puas Terimakasih untuk Tunggal Prima Sejahtera."',
       avatar: {
         src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
         alt: "Testimonial avatar 1",
       },
-      name: "Name Surname",
-      position: "Position",
-      companyName: "Company name",
-      numberOfStars: 5,
+      name: "Fadli Rusli",
+      position: "Owner",
+      companyName: "Agana Coffee Roastery",
+      numberOfStars: 4,
     },
     {
       quote:
