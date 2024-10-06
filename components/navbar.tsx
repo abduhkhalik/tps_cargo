@@ -106,7 +106,7 @@ export const Navbar = (props: Navbar2Props) => {
               ) : (
                 <a
                   href={navLink.url}
-                  className="block py-3 text-md lg:px-4 lg:py-2 lg:text-base"
+                  className="block py-3 text-md lg:px-4 lg:py-2 hover:text-blue-500 transition delay-200 ease-in-out lg:text-base"
                 >
                   {navLink.title}
                 </a>
