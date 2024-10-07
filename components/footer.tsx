@@ -64,7 +64,7 @@ export const Footer3 = (props: Footer3Props) => {
       className="bg-blue-400 text-white py-12 md:py-18 lg:py-20"
     >
       <div className="container px-0">
-        <div className="grid grid-cols-1 gap-x-[4vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
+        <div className="grid grid-cols-1 px-4 gap-x-[4vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
           <div>
             <div className="rb-6 mb-6 md:mb-8">
               <a href={logo.url}>
