@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+// import Logo from "../public/logo/Primatunggal-removebg-preview.webp"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
