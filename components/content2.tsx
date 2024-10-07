@@ -33,7 +33,7 @@ export const Content2 = (props: Layout396Props) => {
     <section id="relume" className="py-12">
       <div className="container px-4 md:px-[65px]">
         <div className="mx-auto mb-12 w-full max-w-lg text-center md:mb-18">
-          <p className="mb-3 font-semibold md:mb-4 underline underline-offset-2 text-blue-600 uppercase">
+          <p className="mb-3 font-semibold md:mb-4 text-2xl text-blue-600 uppercase">
             {tagline}
           </p>
           <h4 className="mb-5 text-lg font-bold md:mb-6 md:text-2xl">
@@ -126,9 +126,9 @@ export const Layout396Defaults: Layout396Props = {
         src: "https://cdn-icons-png.flaticon.com/256/2786/2786398.png",
         alt: "Relume logo 3",
       },
-      heading: "Menjangkau Seluruh Dunia",
+      heading: "Menjangkau Seluruh Wilayah Indonesia",
       description:
-        "Dengan dukungan jaringan global dan kemitraan internasional, kami mampu menjangkau berbagai tujuan di seluruh penjuru dunia.",
+        "Dengan dukungan jaringan transportasi darat, laut, dan udara, kami memastikan pengiriman Anda dapat tiba di berbagai wilayah, dari kota besar hingga daerah terpencil di seluruh Indonesia.",
       button: {
         title: "Button",
         variant: "link",

@@ -35,7 +35,7 @@ export const Content = (props: Content1Props) => {
               width={1000}
               height={1000}
               src={FotoContent}
-              className="w-96 h-full object-cover bg-cover"
+              className="w-96 h-full object-cover brightness-100 bg-cover"
               alt={""}
             />
           </div>

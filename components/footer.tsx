@@ -1,5 +1,5 @@
 import { FaXTwitter } from "react-icons/fa6";
-import myLogo from "../public/logo/Primatunggal-removebg-preview.webp";
+import myLogo from "../public/logo/Mask group.png";
 
 import {
   BiLogoFacebookCircle,
@@ -59,8 +59,11 @@ export const Footer3 = (props: Footer3Props) => {
       ...props,
     } as Props;
   return (
-    <footer id="footer" className="px-[5%] py-12 md:py-18 lg:py-20">
-      <div className="container px-4 md:px-[65px]">
+    <footer
+      id="footer"
+      className="bg-blue-400 text-white py-12 md:py-18 lg:py-20"
+    >
+      <div className="container px-0">
         <div className="grid grid-cols-1 gap-x-[4vw] gap-y-12 pb-12 md:gap-y-16 md:pb-18 lg:grid-cols-[1fr_0.5fr] lg:gap-y-4 lg:pb-20">
           <div>
             <div className="rb-6 mb-6 md:mb-8">
@@ -70,18 +73,18 @@ export const Footer3 = (props: Footer3Props) => {
                   height={500}
                   src={myLogo}
                   alt={""}
-                  className="inline-block w-16 h-16"
+                  className="inline-block w-20 h-20"
                 />
               </a>
             </div>
             <div className="rb-6 mb-6 md:mb-8">
               <div>
-                <p className="mb-1 text-sm font-semibold">{address.label}</p>
-                <p className="mb-5 text-sm md:mb-6">{address.value}</p>
+                <p className="mb-1 text-lg font-semibold">{address.label}</p>
+                <p className="mb-5 text-md md:mb-6">{address.value}</p>
               </div>
               <div>
-                <p className="mb-1 text-sm font-semibold">{contact.label}</p>
-                <p className="flex flex-col text-sm underline decoration-black underline-offset-1 md:mb-6">
+                <p className="mb-1 text-lg font-semibold">{contact.label}</p>
+                <p className="flex flex-col text-md md:mb-6">
                   <a href={`tel:${contact.phone}`}>{contact.phone}</a>
                   <a href={`mailto:${contact.email}`}>{contact.email}</a>
                 </p>
@@ -108,8 +111,8 @@ export const Footer3 = (props: Footer3Props) => {
           </div>
         </div>
         <div className="h-px w-full bg-black" />
-        <div className="flex items-start justify-center pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="mt-8 md:mt-0">{footerText}</p>
+        <div className="W-full flex items-start justify-center rounded pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
+          <p className="w-full mt-8 md:mt-0 text-[17px] text-center font-semibold bg-red-800 px-4 py-4">{footerText}</p>
         </div>
       </div>
     </footer>
@@ -123,11 +126,12 @@ export const Footer3Defaults: Footer3Props = {
   },
   address: {
     label: "Alamat:",
-    value: "Jl. Rahmatulah Perum.Taman Ria Estate Kav. Matahari No.4 Kel. Silae Kec. Ulujadi, Kota Palu",
+    value:
+      "Jl. Rahmatulah Perum.Taman Ria Estate Kav. Matahari No.4 Kel. Silae Kec. Ulujadi, Kota Palu",
   },
   contact: {
     label: "Contact:",
-    phone: "04514710124",
+    phone: "0451 - 4710124",
     email: "tunggalprimasejahtera@gmail.com",
   },
   columnLinks: [

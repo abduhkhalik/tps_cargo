@@ -8,6 +8,7 @@ import WhatsAppButton from "@/components/ui/whatsappButton";
 import { Gallery } from "@/components/gallery";
 import { Mitra } from "@/components/mitra";
 import { Testimoni } from "@/components/testimoni";
+import { Team } from "@/components/our-team";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         <CarouselFeature />
       </section>
       {/* Content */}
-      <section className="bg-slate-200">
+      <section>
         <Content />
       </section>
       <section className="bg-slate-100">
@@ -34,6 +35,9 @@ const Home = () => {
       </section>
       <section>
         <Mitra />
+      </section>
+      <section>
+        <Team />
       </section>
       <section>
         <Testimoni />

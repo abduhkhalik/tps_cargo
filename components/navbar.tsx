@@ -45,7 +45,7 @@ export const Navbar = (props: Navbar2Props) => {
             <Image
               width={500}
               height={500}
-              className="w-14 h-auto"
+              className="w-20 h-auto"
               src={logo.src}
               alt={"#"}
             />
@@ -103,7 +103,7 @@ export const Navbar = (props: Navbar2Props) => {
           className="overflow-hidden px-[5%] text-center lg:flex lg:items-center lg:justify-center lg:px-0 lg:[--height-closed:auto] lg:[--height-open:auto]"
         >
           {navLinks.map((navLink, index) => (
-            <div key={index} className="first:pt-4 lg:first:pt-0">
+            <div key={index} className="first:pt-4 font-bold lg:first:pt-0">
               {navLink.subMenuLinks && navLink.subMenuLinks.length > 0 ? (
                 <SubMenu navLink={navLink} isMobile={isMobile} />
               ) : (
@@ -188,7 +188,7 @@ const SubMenu = ({
               <a
                 key={index}
                 href={subMenuLink.url}
-                className="block py-3 text-center lg:px-4 lg:py-2 lg:text-left"
+                className="block py-3 text-center font-bold lg:px-4 lg:py-2 lg:text-left"
               >
                 {subMenuLink.title}
               </a>

@@ -1,10 +1,10 @@
 import Image, { StaticImageData } from "next/image";
-import Mitra1 from "../public/mitra/1594108255409_compress_logo telkom indonesia.png";
+import Mitra1 from "../public/mitra/telkom.png";
 import Mitra2 from "../public/mitra/Huawei-Logo.png";
 import Mitra3 from "../public/mitra/Logo-Kementerian-Kesehatan_.png";
 import Mitra4 from "../public/mitra/Wahana Visi Indonesia Job Vacancy.png";
-import Mitra5 from "../public/mitra/WhatsApp_Image_2024-10-06_at_19.41.14_607c5f41-removebg-preview.png";
-import Mitra6 from "../public/mitra/WhatsApp_Image_2024-10-06_at_22.54.48_d6712467-removebg-preview.png";
+import Mitra5 from "../public/mitra/telkomsel.png";
+import Mitra6 from "../public/mitra/master.png";
 
 type ImageProps = {
   src: StaticImageData;
@@ -56,15 +56,15 @@ export const Logo1Defaults: Logo1Props = {
   desc: "Perusahaan Yang Telah Bekerjasama dengan kami",
   logos: [
     {
-      src: Mitra1,
-      alt: "#",
-    },
-    {
       src: Mitra2,
       alt: "#",
     },
     {
       src: Mitra3,
+      alt: "#",
+    },
+    {
+      src: Mitra1,
       alt: "#",
     },
     {

@@ -1,8 +1,12 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { BiSolidStar } from "react-icons/bi";
+import Agana from "../public/mitra/aganacoffe.png"
+import Syariah from "../public/mitra/syariah.png"
+import Dmi from "../public/mitra/dmi.png"
+import qonitah  from "../public/mitra/qonitah.jpg"
 
 type ImageProps = {
-  src: string;
+  src: StaticImageData;
   alt?: string;
 };
 
@@ -38,7 +42,7 @@ export const Testimoni = (props: Testimonial17Props) => {
           </h1>
           <p className="md:text-md">{description}</p>
         </div>
-        <div className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-2">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -49,7 +53,10 @@ export const Testimoni = (props: Testimonial17Props) => {
                   {Array(testimonial.numberOfStars)
                     .fill(null)
                     .map((_, starIndex) => (
-                      <BiSolidStar key={starIndex} className="mr-1 size-6 fill-current text-yellow-400" />
+                      <BiSolidStar
+                        key={starIndex}
+                        className="mr-1 size-6 fill-current text-yellow-400"
+                      />
                     ))}
                 </div>
                 <blockquote className="md:text-md">
@@ -87,7 +94,7 @@ export const Testimonial17Defaults: Testimonial17Props = {
       quote:
         '"Selama 2 tahun berlangganan di Tunggal Prima Sejahtera , sy dan customer sy sangat puas dgn pelayanannya dan selalu tepat waktu dan tanpa kendala , pelayananya ramah yang membuat kami puas Terimakasih untuk Tunggal Prima Sejahtera."',
       avatar: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: Agana,
         alt: "Testimonial avatar 1",
       },
       name: "Fadli Rusli",
@@ -99,24 +106,36 @@ export const Testimonial17Defaults: Testimonial17Props = {
       quote:
         '"Alhamdulillah selama 2tahun berlangganan tidaa pernaa kecewa dalam pelayanann 🥰🥰 selalu.a respon baik pengiriman banyak dan tidak banyak pun selalunya di jemput di toko .Ingatt see.x waktu pertama kalii pengiriman kuu ke LUAR NEGERI masya Allah dengan sabarrnya kk baa ajarr dan mengarahkan diriku yg tidak tau apaa" inii 😁🤗🤗 pokoknya selalu menyelesaikannya masalaa kuu dalam pengiriman barang"kuu 😁😁"',
       avatar: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: Syariah,
         alt: "Testimonial avatar 2",
       },
       name: "Karmonawati",
       position: "Founder",
-      companyName: "Syariah Muslimah Collection",
+      companyName: "Syafiah Muslimah Collection",
       numberOfStars: 5,
     },
     {
       quote:
-        '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."',
+        '"alhamdulillah sampe hari ini TPS amanah yaa kalo antar barang kami terlebih kalo misalkan ada barang dengan prosedur yang ribet pasti di bantu sampai selesai dan clear."',
       avatar: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
+        src: Dmi,
         alt: "Testimonial avatar 3",
       },
-      name: "Name Surname",
-      position: "Position",
-      companyName: "Company name",
+      name: "I Made Oki Dwiputra",
+      position: "Direktur",
+      companyName: "PT. Dewata Mitra Internusa",
+      numberOfStars: 5,
+    },
+    {
+      quote:
+        '"Jadi sya hanya bisa berkomentar Sangat puas dgn pelayanan 🙏💖💖."',
+      avatar: {
+        src: qonitah,
+        alt: "Testimonial avatar 3",
+      },
+      name: "Syasmitha",
+      position: "Owner",
+      companyName: "Qonitah Skincare",
       numberOfStars: 5,
     },
   ],
