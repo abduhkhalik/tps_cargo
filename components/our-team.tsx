@@ -82,7 +82,7 @@ export const Team2Defaults: Team2Props = {
       },
       name: "Bambang",
       jobTitle: "Marketing 1",
-      description: "telp:+6282225699993",
+      description: "tel:+6282225699993",
     },
     {
       image: {
