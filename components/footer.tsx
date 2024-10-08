@@ -80,7 +80,9 @@ export const Footer3 = (props: Footer3Props) => {
             <div className="rb-6 mb-6 md:mb-8">
               <div>
                 <p className="mb-1 text-lg font-semibold">{address.label}</p>
-                <p className="mb-5 text-md md:mb-6">{address.value}</p>
+                <a href="https://maps.app.goo.gl/cNFn8yEkYCQu5KkM8" target="_blank">
+                  <p className="mb-5 text-md md:mb-6">{address.value}</p>
+                </a>
               </div>
               <div>
                 <p className="mb-1 text-lg font-semibold">{contact.label}</p>
@@ -112,7 +114,9 @@ export const Footer3 = (props: Footer3Props) => {
         </div>
         <div className="h-px w-full bg-black" />
         <div className="W-full flex items-start justify-center rounded pb-4 pt-6 text-sm md:flex-row md:items-center md:pb-0 md:pt-8">
-          <p className="w-full mt-8 md:mt-0 text-[17px] text-center font-semibold bg-red-800 px-4 py-4">{footerText}</p>
+          <p className="w-full mt-8 md:mt-0 text-[17px] text-center font-semibold bg-red-800 px-4 py-4">
+            {footerText}
+          </p>
         </div>
       </div>
     </footer>
