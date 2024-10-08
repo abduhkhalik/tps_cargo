@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Tunggal Prima Sejahtera",
-  description: "Ekspedisi Website",
+  description: "CV.TUNGGAL PRIMA SEJAHTERA EKSPEDISI DAN CARGO",
 };
 
 export default function RootLayout({
