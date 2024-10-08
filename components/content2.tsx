@@ -60,7 +60,7 @@ function FeatureSection(featureSection: FeatureSection) {
             height={200}
             src={featureSection.icon.src}
             className="size-12 text-blue-600"
-            alt={""}
+            alt={"Keunggulan Ekspedisi"}
           />
         </div>
         <h2 className="mb-3 text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500 font-bold md:mb-4 md:text-2xl md:leading-[1.3]">

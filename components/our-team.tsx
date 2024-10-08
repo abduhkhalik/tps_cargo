@@ -55,7 +55,7 @@ const TeamMember = ({ member }: { member: TeamMember }) => {
           width={500}
           height={500}
           src={member.image.src}
-          alt={""}
+          alt={"Marketing"}
           className="size-20 rounded-full inset-0 object-cover"
         />
       </div>

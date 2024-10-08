@@ -68,7 +68,7 @@ export const Testimoni = (props: Testimonial17Props) => {
                   width={100}
                   height={100}
                   src={testimonial.avatar.src}
-                  alt={""}
+                  alt={"Logo Mitra"}
                   className="mb-4 mr-0 size-12 min-h-12 min-w-12 rounded-full object-cover md:mb-0 md:mr-4"
                 />
                 <div>

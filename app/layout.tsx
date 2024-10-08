@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tunggal Prima Sejahtera",
+  title: "Tunggal Prima Ekspedisi",
   description: "CV.TUNGGAL PRIMA SEJAHTERA EKSPEDISI DAN CARGO",
 };
 

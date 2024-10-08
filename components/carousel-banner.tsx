@@ -31,7 +31,7 @@ const CarouselBanner = () => {
                 height={1000}
                 className="w-full h-auto md:h-[450px] object-center"
                 src={banner5}
-                alt="image"
+                alt="Ekspedisi Antar Pulau Dan Mancanegara"
               />
             </div>
           </CarouselItem>
@@ -42,7 +42,7 @@ const CarouselBanner = () => {
                 height={1000}
                 className="w-full h-auto md:h-[450px] object-center"
                 src={banner1}
-                alt="image"
+                alt="Pengiriman Container"
               />
             </div>
           </CarouselItem>
@@ -53,7 +53,7 @@ const CarouselBanner = () => {
                 height={1000}
                 className="w-full h-auto md:h-[450px] object-center"
                 src={banner2}
-                alt="image"
+                alt="Pengiriman Antar Pulau"
               />
             </div>
           </CarouselItem>
@@ -64,7 +64,7 @@ const CarouselBanner = () => {
                 height={1000}
                 className="w-full h-auto md:h-[450px] object-center"
                 src={banner3}
-                alt="image"
+                alt="Pick up"
               />
             </div>
           </CarouselItem>
@@ -75,7 +75,7 @@ const CarouselBanner = () => {
                 height={1000}
                 className="w-full h-auto md:h-[450px] object-center"
                 src={banner4}
-                alt="image"
+                alt="Menjangkau Seluruh Wilayah Indonesia"
               />
             </div>
           </CarouselItem>

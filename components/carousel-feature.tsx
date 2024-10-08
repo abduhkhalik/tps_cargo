@@ -34,7 +34,7 @@ export function CarouselFeature() {
                 width={500}
                 height={500}
                 className="w-full h-26 rounded-md"
-                alt=""
+                alt="Promo Ekspedisi dan cargo"
               />
             </div>
           </CarouselItem>
@@ -47,7 +47,7 @@ export function CarouselFeature() {
                 width={500}
                 height={500}
                 className="w-full h-26 rounded-md"
-                alt=""
+                alt="Promo Ekspedisi dan cargo"
               />
             </div>
           </CarouselItem>
@@ -60,7 +60,7 @@ export function CarouselFeature() {
                 width={500}
                 height={500}
                 className="w-full h-26 rounded-md"
-                alt=""
+                alt="Promo Ekspedisi dan cargo"
               />
             </div>
           </CarouselItem>
@@ -73,7 +73,7 @@ export function CarouselFeature() {
                 width={500}
                 height={500}
                 className="w-full h-26 rounded-md"
-                alt=""
+                alt="Promo Ekspedisi dan cargo"
               />
             </div>
           </CarouselItem>
@@ -86,7 +86,7 @@ export function CarouselFeature() {
                 width={500}
                 height={500}
                 className="w-full h-26 rounded-md"
-                alt=""
+                alt="Promo Ekspedisi dan cargo"
               />
             </div>
           </CarouselItem>

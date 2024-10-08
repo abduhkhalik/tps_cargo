@@ -47,7 +47,7 @@ export const Navbar = (props: Navbar2Props) => {
               height={500}
               className="w-20 h-auto"
               src={logo.src}
-              alt={"#"}
+              alt={"Tunggal Prima Sejahtera"}
             />
           </a>
           <div className="flex items-center gap-4 lg:hidden">

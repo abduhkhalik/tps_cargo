@@ -39,7 +39,7 @@ export const Gallery = (props: Gallery3Props) => {
                 width={500}
                 height={500}
                 src={image.src}
-                alt={""}
+                alt={"Dokumentasi Ekspedisi dan Cargo"}
                 className="w-full h-96 object-cover"
               />
             </div>
