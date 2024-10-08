@@ -161,5 +161,5 @@ export const Footer3Defaults: Footer3Props = {
     { url: "#", icon: <BiLogoLinkedinSquare className="size-6" /> },
     { url: "#", icon: <BiLogoYoutube className="size-6" /> },
   ],
-  footerText: "© 2024 CV.Tunggal Prima Sejahtra. All rights reserved.",
+  footerText: "© 2024 CV.Tunggal Prima Sejahtera. All rights reserved.",
 };
